@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="base_view_partner_logistic_form_inherit" model="ir.ui.view">
+            <field name="name">base.view.partner.logistic.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='state_id']" position="attributes">
+                    <attribute name="placeholder">Department</attribute>
+                </xpath>
+                <xpath expr="//field[@name='country_id']" position="before">
+                    <field name="zone" style="width:47%;" placeholder="Zone" nolabel="1"/>
+                    <field name="municipality_id" style="width:50%; margin-left:10px;" placeholder="Municipality" nolabel="1" options="{'no_create_edit': True}" domain="[('state_id', '=', state_id)]"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="base_res_partner_view_form_private_inherit" model="ir.ui.view">
+            <field name="name">base.res.partner.view.form.private.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_view_form_private"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='state_id']" position="attributes">
+                    <attribute name="placeholder">Department</attribute>
+                </xpath>
+                <xpath expr="//field[@name='country_id']" position="before">
+                    <field name="zone" style="width:45%;" placeholder="Zone" nolabel="1"/>
+                    <field name="municipality_id" style="width:45%; margin-left:10px;" placeholder="Municipality" nolabel="1" options="{'no_create_edit': True}" domain="[('state_id', '=', state_id)]"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

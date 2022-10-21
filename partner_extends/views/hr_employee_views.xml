@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="hr_view_employee_form_inherit" model="ir.ui.view">
+            <field name="name">hr.view.employee.form.inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='coach_id']" position="after">
+                    <field name="igss"/>
+                    <field name="vat"/>
+                </xpath>
+                <xpath expr="//field[@name='address_home_id']" position="after">
+                    <field name="state_id" string="Department"/>
+                    <field name="zone"/>
+                    <field name="municipality_id"/>
+                    <field name="code"/>
+                    <field name="region"/>
+                </xpath>
+                <xpath expr="//field[@name='study_school']" position="after">
+                    <field name="alter_code"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

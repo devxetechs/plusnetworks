@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="res_country_region_tree_view" model="ir.ui.view">
+            <field name="name">res.country.region.tree.view</field>
+            <field name="model">res.country.region</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="name"/>
+                    <field name="code"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_res_country_region">
+            <field name="name">Region</field>
+            <field name="res_model">res.country.region</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <menuitem id="menu_res_country_region" name="Region" action="action_res_country_region" sequence="3" parent="contacts.menu_localisation"/>
+
+    </data>
+</odoo>
