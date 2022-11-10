@@ -10,9 +10,9 @@
         'sale', 
         'crm'
     ],
-    # 'data': [
-    #     'views/sale_order_template_views.xml',
-    # ],
+    'data': [
+        'views/crm_lead_views.xml',
+    ],
     'installable': True,
     'application': True,
     'auto_install': False,
