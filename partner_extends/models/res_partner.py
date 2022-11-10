@@ -12,3 +12,8 @@ class ResPartner(models.Model):
 
     zone = fields.Char(string="Zone")
     municipality_id = fields.Many2one("res.country.municipality", string="Municipality")
+
+    speed = fields.Char(string="Speed")
+    link_code = fields.Char(string="Link Code")
+    annex_code = fields.Char(string="Annex code")
+    att_expiration_date = fields.Date(string='Attachment Expiration Date', store=True, default=fields.Datetime.now)
