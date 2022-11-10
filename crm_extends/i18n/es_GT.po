@@ -1264,6 +1264,11 @@ msgid "Expected Revenues"
 msgstr "MRC"
 
 #. module: crm
+#: model:ir.model.fields,field_description:crm.field_crm_lead__expected_revenue
+msgid "Expected Revenue"
+msgstr "MRC"
+
+#. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Extended Filters"
 msgstr "Filtros avanzados"
