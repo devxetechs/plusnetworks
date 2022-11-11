@@ -9,7 +9,7 @@ class CRMLead(models.Model):
     _inherit = 'crm.lead'
 
     arc = fields.Float(string="ARC", store=True, compute="_compute_arc")
-    partner_ref = fields.Char(string="Reference")
+    partner_ref = fields.Char(string="Reference", store=True)
     months_numbers = fields.Float(string="Months Number")
     
     @api.depends('months_numbers', 'expected_revenue')

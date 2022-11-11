@@ -10,6 +10,8 @@
     'depends': [
         'base',
         'contacts',
+        'helpdesk',
+        'helpdesk_timesheet',
         'hr'
     ],
     'data': [
@@ -18,6 +20,7 @@
         'views/res_country_municipality_views.xml',
         'views/res_partner_views.xml',
         'views/hr_employee_views.xml',
+        'views/helpdesk_ticket_views.xml',
         'data/municipality_data.xml',
     ],
     'installable': True,

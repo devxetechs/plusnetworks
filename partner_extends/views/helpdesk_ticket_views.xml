@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="helpdesk_ticket_view_form_inherit" model="ir.ui.view">
+            <field name="name">helpdesk.ticket.view.form.inherit</field>
+            <field name="model">helpdesk.ticket</field>
+            <field name="priority">55</field>
+            <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="partner_ref" force_save="1"/>
+                </xpath>
+                <xpath expr="//sheet/group[1]/group[2]" position="inside">
+                    <field name="speed" force_save="1"/>
+                    <field name="link_code" force_save="1"/>
+                </xpath>
+                <xpath expr="//notebook/page[@name='timesheets']" position="after">
+                    <page string="Date and Time Tracking" name="date_tracking">
+                        <group>
+                            <group>
+                                <field name="date_opening"/>
+                                <field name="date_incidence"/>
+                                <field name="date_established"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+        
+        <record id="helpdesk_ticket_view_tree_inherit" model="ir.ui.view">
+            <field name="name">helpdesk.ticket.view.tree.inherit</field>
+            <field name="model">helpdesk.ticket</field>
+            <field name="inherit_id" ref="helpdesk.helpdesk_tickets_view_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="link_code" optional="show"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
