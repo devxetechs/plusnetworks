@@ -54,7 +54,7 @@ msgstr ""
 #. module: partner_extends
 #: model_terms:ir.ui.view,arch_db:partner_extends.helpdesk_ticket_view_form_inherit
 msgid "Date and Time Tracking"
-msgstr ""
+msgstr "Fecha y Hora Seguimiento"
 
 #. module: partner_extends
 #: model:ir.model.fields,field_description:partner_extends.field_hr_employee__state_id
