@@ -8,10 +8,12 @@
 
     'depends': [
         'sale', 
+        'purchase',
         'crm'
     ],
     'data': [
         'views/crm_lead_views.xml',
+        'views/sale_order_views.xml',
     ],
     'installable': True,
     'application': True,
