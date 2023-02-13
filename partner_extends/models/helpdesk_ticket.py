@@ -19,6 +19,8 @@ class HelpdeskTicket(models.Model):
     link_code = fields.Char(string="Link Code", store=True)
     partner_ref = fields.Char(string="Reference", store=True)
     
+    stage_name = fields.Char(string="Stage Name", store=True, related="stage_id.name")
+    
     @api.onchange('partner_id')
     def _onchange_partner_id(self):
         for order in self:

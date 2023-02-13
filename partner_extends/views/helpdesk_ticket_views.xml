@@ -19,9 +19,10 @@
                     <page string="Date and Time Tracking" name="date_tracking">
                         <group>
                             <group>
-                                <field name="date_opening"/>
-                                <field name="date_incidence"/>
-                                <field name="date_established"/>
+                                <field name="stage_name" invisible="1"/>
+                                <field name="date_opening" attrs="{'readonly': [('stage_name', '!=', 'Nuevo')]}"/>
+                                <field name="date_incidence" attrs="{'readonly': [('stage_name', '!=', 'Nuevo')]}"/>
+                                <field name="date_established" attrs="{'invisible': [('stage_name', '=', 'Nuevo')]}"/>
                             </group>
                         </group>
                     </page>
