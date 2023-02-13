@@ -18,7 +18,12 @@
                     <group>
                         <group>
                             <field name="link_code"/>
-                            <field name="speed"/>
+                            <label for="speed"/>
+                            <div class="o_row" name="speed">
+                                <field name="speed" nolabel="1"/>
+                                <span>/ Mbps</span>
+                            </div>
+                            <field name="ip_assigned"/>
                         </group>
                         <group>
                             <field name="annex_code"/>
