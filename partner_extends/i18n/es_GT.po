@@ -15280,7 +15280,6 @@ msgstr "Comores"
 #: model:ir.model.fields,field_description:base.field_res_users__company_ids
 #: model:ir.ui.menu,name:base.menu_action_res_company_form
 #: model_terms:ir.ui.view,arch_db:base.view_company_tree
-#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Companies"
 msgstr "Compañías"
 
@@ -21042,7 +21041,12 @@ msgstr "Cliente"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
 msgid "Individuals"
-msgstr "Individuos"
+msgstr "Enlaces"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "Clientes"
 
 #. module: base
 #: model:res.country,name:base.id
