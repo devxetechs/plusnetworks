@@ -15354,7 +15354,7 @@ msgstr "Entidad del nombre de la compañía"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_simple_form
 msgid "Company Name..."
-msgstr "Nombre de la empresa..."
+msgstr "Nombre del cliente..."
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_property_form
