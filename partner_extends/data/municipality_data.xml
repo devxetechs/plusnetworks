@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- GUATEMALA DEPARTAMENT  -->
+
+    <record id="municipality_gt_101" model="res.country.municipality">
+        <field name="name">Guatemala</field>
+        <field name="code">101</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_102" model="res.country.municipality">
+        <field name="name">Santa Catarina Pinula</field>
+        <field name="code">102</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_103" model="res.country.municipality">
+        <field name="name">San José Pinula</field>
+        <field name="code">103</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_104" model="res.country.municipality">
+        <field name="name">San José del Golfo</field>
+        <field name="code">104</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_105" model="res.country.municipality">
+        <field name="name">Palencia</field>
+        <field name="code">105</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_106" model="res.country.municipality">
+        <field name="name">Chinautla</field>
+        <field name="code">106</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_107" model="res.country.municipality">
+        <field name="name">San Pedro Ayampuc</field>
+        <field name="code">107</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_108" model="res.country.municipality">
+        <field name="name">Mixco</field>
+        <field name="code">108</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_109" model="res.country.municipality">
+        <field name="name">San Pedro Sacatepéquez</field>
+        <field name="code">109</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_110" model="res.country.municipality">
+        <field name="name">San Juan Sacatépequez</field>
+        <field name="code">110</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_111" model="res.country.municipality">
+        <field name="name">San Raymundo</field>
+        <field name="code">111</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_112" model="res.country.municipality">
+        <field name="name">Chuarrancho</field>
+        <field name="code">112</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_113" model="res.country.municipality">
+        <field name="name">Fraijanes</field>
+        <field name="code">113</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_114" model="res.country.municipality">
+        <field name="name">Amatitlán</field>
+        <field name="code">114</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_115" model="res.country.municipality">
+        <field name="name">Villa Nueva</field>
+        <field name="code">115</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_116" model="res.country.municipality">
+        <field name="name">Villa Canales</field>
+        <field name="code">116</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+    <record id="municipality_gt_117" model="res.country.municipality">
+        <field name="name">Petapa</field>
+        <field name="code">117</field>
+        <field name="state_id" ref="base.state_gt_gua"/>
+    </record>
+
+
+
+    <!-- EL PROGRESO DEPARTAMENT  -->
+    
+    <record id="municipality_gt_201" model="res.country.municipality">
+        <field name="name">Guastatoya</field>
+        <field name="code">201</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_202" model="res.country.municipality">
+        <field name="name">Morazán</field>
+        <field name="code">202</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_203" model="res.country.municipality">
+        <field name="name">San Agustín Acasaguastlán</field>
+        <field name="code">203</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_204" model="res.country.municipality">
+        <field name="name">San Cristóbal Acasaguastlán</field>
+        <field name="code">204</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_205" model="res.country.municipality">
+        <field name="name">El Jícaro</field>
+        <field name="code">205</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_206" model="res.country.municipality">
+        <field name="name">Sansare</field>
+        <field name="code">206</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_207" model="res.country.municipality">
+        <field name="name">Sanarate</field>
+        <field name="code">207</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+    <record id="municipality_gt_208" model="res.country.municipality">
+        <field name="name">San Antonio La Paz</field>
+        <field name="code">208</field>
+        <field name="state_id" ref="base.state_gt_epr"/>
+    </record>
+
+
+
+    <!-- SACATEPEQUEZ DEPARTAMENT  -->
+
+    <record id="municipality_gt_301" model="res.country.municipality">
+        <field name="name">Antigua Guatemala</field>
+        <field name="code">301</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_302" model="res.country.municipality">
+        <field name="name">Jocotenango</field>
+        <field name="code">302</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_303" model="res.country.municipality">
+        <field name="name">Pastores</field>
+        <field name="code">303</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_304" model="res.country.municipality">
+        <field name="name">Sumpango</field>
+        <field name="code">304</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_305" model="res.country.municipality">
+        <field name="name">Sto. Domingo Xenacoj</field>
+        <field name="code">305</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_306" model="res.country.municipality">
+        <field name="name">Santiago Sacatepéquez</field>
+        <field name="code">306</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_307" model="res.country.municipality">
+        <field name="name">San Bartolomé Millpas Altas</field>
+        <field name="code">307</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_308" model="res.country.municipality">
+        <field name="name">San Lucas Sacatepéquez</field>
+        <field name="code">308</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_309" model="res.country.municipality">
+        <field name="name">Santa Lucia Milpas Altas</field>
+        <field name="code">309</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_310" model="res.country.municipality">
+        <field name="name">Magdalena Milpas Altas</field>
+        <field name="code">310</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_311" model="res.country.municipality">
+        <field name="name">Santa María de Jesús</field>
+        <field name="code">311</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_312" model="res.country.municipality">
+        <field name="name">Ciudad Vieja</field>
+        <field name="code">312</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_313" model="res.country.municipality">
+        <field name="name">San Miguel Dueñas</field>
+        <field name="code">313</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_314" model="res.country.municipality">
+        <field name="name">Alotenango</field>
+        <field name="code">314</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_315" model="res.country.municipality">
+        <field name="name">San Antonio Aguas Calientes</field>
+        <field name="code">315</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+    <record id="municipality_gt_316" model="res.country.municipality">
+        <field name="name">Santa Catarina Barahona</field>
+        <field name="code">316</field>
+        <field name="state_id" ref="base.state_gt_sac"/>
+    </record>
+
+
+
+    <!-- CHIMALTENANGO DEPARTAMENT  -->
+
+    <record id="municipality_gt_401" model="res.country.municipality">
+        <field name="name">Chimaltenango</field>
+        <field name="code">401</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_402" model="res.country.municipality">
+        <field name="name">San José Poaquil</field>
+        <field name="code">402</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_403" model="res.country.municipality">
+        <field name="name">San Martín Jilotepeque</field>
+        <field name="code">403</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_404" model="res.country.municipality">
+        <field name="name">Comalapa</field>
+        <field name="code">404</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_405" model="res.country.municipality">
+        <field name="name">Santa Apolonia</field>
+        <field name="code">405</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_406" model="res.country.municipality">
+        <field name="name">Tecpán Guatemala</field>
+        <field name="code">406</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_407" model="res.country.municipality">
+        <field name="name">Patzún</field>
+        <field name="code">407</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_408" model="res.country.municipality">
+        <field name="name">Pochuta</field>
+        <field name="code">408</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_409" model="res.country.municipality">
+        <field name="name">Patzicia</field>
+        <field name="code">409</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_410" model="res.country.municipality">
+        <field name="name">Santa Cruz Balanyá</field>
+        <field name="code">410</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_411" model="res.country.municipality">
+        <field name="name">Acatenango</field>
+        <field name="code">411</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_412" model="res.country.municipality">
+        <field name="name">Yepocapa</field>
+        <field name="code">412</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_413" model="res.country.municipality">
+        <field name="name">San Andrés Iztapa</field>
+        <field name="code">413</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_414" model="res.country.municipality">
+        <field name="name">Parramos</field>
+        <field name="code">414</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_415" model="res.country.municipality">
+        <field name="name">Zaragoza</field>
+        <field name="code">415</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+    <record id="municipality_gt_416" model="res.country.municipality">
+        <field name="name">El Tejar</field>
+        <field name="code">416</field>
+        <field name="state_id" ref="base.state_gt_cmt"/>
+    </record>
+
+
+
+    <!-- ESCUINTLA DEPARTAMENT  -->
+
+    <record id="municipality_gt_501" model="res.country.municipality">
+        <field name="name">Escuintla</field>
+        <field name="code">501</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_502" model="res.country.municipality">
+        <field name="name">Santa Lucía Cotzumalguapa</field>
+        <field name="code">502</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_503" model="res.country.municipality">
+        <field name="name">La Democracia</field>
+        <field name="code">503</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_504" model="res.country.municipality">
+        <field name="name">Siquinalá</field>
+        <field name="code">504</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_505" model="res.country.municipality">
+        <field name="name">Masagua</field>
+        <field name="code">505</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_506" model="res.country.municipality">
+        <field name="name">Tiquisate</field>
+        <field name="code">506</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_507" model="res.country.municipality">
+        <field name="name">La Gomera</field>
+        <field name="code">507</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_508" model="res.country.municipality">
+        <field name="name">Guanagazapa</field>
+        <field name="code">508</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_509" model="res.country.municipality">
+        <field name="name">San José</field>
+        <field name="code">509</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_510" model="res.country.municipality">
+        <field name="name">Iztapa</field>
+        <field name="code">510</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_511" model="res.country.municipality">
+        <field name="name">Palín</field>
+        <field name="code">511</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_512" model="res.country.municipality">
+        <field name="name">San Vicente Pacaya</field>
+        <field name="code">512</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+    <record id="municipality_gt_513" model="res.country.municipality">
+        <field name="name">Nueva Concepción</field>
+        <field name="code">513</field>
+        <field name="state_id" ref="base.state_gt_esc"/>
+    </record>
+
+
+
+        <!-- SANTA ROSA DEPARTAMENT  -->
+
+    <record id="municipality_gt_601" model="res.country.municipality">
+        <field name="name">Cuilapa</field>
+        <field name="code">601</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_602" model="res.country.municipality">
+        <field name="name">Barberena</field>
+        <field name="code">602</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_603" model="res.country.municipality">
+        <field name="name">Santa Rosa de Lima</field>
+        <field name="code">603</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_604" model="res.country.municipality">
+        <field name="name">Casillas</field>
+        <field name="code">604</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_605" model="res.country.municipality">
+        <field name="name">San Rafael Las Flores</field>
+        <field name="code">605</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_606" model="res.country.municipality">
+        <field name="name">Oratorio</field>
+        <field name="code">606</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_607" model="res.country.municipality">
+        <field name="name">San Juan Tecuaco</field>
+        <field name="code">607</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_608" model="res.country.municipality">
+        <field name="name">Chiquimulilla</field>
+        <field name="code">608</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_609" model="res.country.municipality">
+        <field name="name">Taxisco</field>
+        <field name="code">609</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_610" model="res.country.municipality">
+        <field name="name">Santa María Ixhuatán</field>
+        <field name="code">610</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_611" model="res.country.municipality">
+        <field name="name">Guazacapán</field>
+        <field name="code">611</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_612" model="res.country.municipality">
+        <field name="name">Santa Cruz Naranjo</field>
+        <field name="code">612</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_613" model="res.country.municipality">
+        <field name="name">Pueblo Nuevo Viñas</field>
+        <field name="code">613</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+    <record id="municipality_gt_614" model="res.country.municipality">
+        <field name="name">Nueva Santa Rosa</field>
+        <field name="code">614</field>
+        <field name="state_id" ref="base.state_gt_sro"/>
+    </record>
+
+
+
+        <!-- SOLOLA DEPARTAMENT  -->
+
+    <record id="municipality_gt_701" model="res.country.municipality">
+        <field name="name">Sololá</field>
+        <field name="code">701</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_702" model="res.country.municipality">
+        <field name="name">San José Chacayá</field>
+        <field name="code">702</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_703" model="res.country.municipality">
+        <field name="name">Santa María Visitación</field>
+        <field name="code">703</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_704" model="res.country.municipality">
+        <field name="name">Santa Lucía Utatlán</field>
+        <field name="code">704</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_705" model="res.country.municipality">
+        <field name="name">Nahualá</field>
+        <field name="code">705</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_706" model="res.country.municipality">
+        <field name="name">Santa Catarina Ixtahuacán</field>
+        <field name="code">706</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_707" model="res.country.municipality">
+        <field name="name">Santa Clara La Laguna</field>
+        <field name="code">707</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_708" model="res.country.municipality">
+        <field name="name">Concepción</field>
+        <field name="code">708</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_709" model="res.country.municipality">
+        <field name="name">San Andrés Semetaba</field>
+        <field name="code">709</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_710" model="res.country.municipality">
+        <field name="name">Panajachel</field>
+        <field name="code">710</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_711" model="res.country.municipality">
+        <field name="name">Santa Catarina Palopó</field>
+        <field name="code">711</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_712" model="res.country.municipality">
+        <field name="name">San Antonio Palopó</field>
+        <field name="code">712</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_713" model="res.country.municipality">
+        <field name="name">San Lucas Tolimán</field>
+        <field name="code">713</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_714" model="res.country.municipality">
+        <field name="name">Santa Cruz La Laguna</field>
+        <field name="code">714</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_715" model="res.country.municipality">
+        <field name="name">San Pablo La Laguna</field>
+        <field name="code">715</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_716" model="res.country.municipality">
+        <field name="name">San Marcos La Laguna</field>
+        <field name="code">716</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_717" model="res.country.municipality">
+        <field name="name">San Juan La Laguna</field>
+        <field name="code">717</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_718" model="res.country.municipality">
+        <field name="name">San Pedro La Laguna</field>
+        <field name="code">718</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+    <record id="municipality_gt_719" model="res.country.municipality">
+        <field name="name">Santiago Atitlán</field>
+        <field name="code">719</field>
+        <field name="state_id" ref="base.state_gt_sol"/>
+    </record>
+
+
+
+        <!-- TOTONICAPAN DEPARTAMENT  -->
+
+    <record id="municipality_gt_801" model="res.country.municipality">
+        <field name="name">Totonicapán</field>
+        <field name="code">801</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_802" model="res.country.municipality">
+        <field name="name">San Cristóbal Totonicapán</field>
+        <field name="code">802</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_803" model="res.country.municipality">
+        <field name="name">San Francisco El Alto</field>
+        <field name="code">803</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_804" model="res.country.municipality">
+        <field name="name">San Andrés Xecul</field>
+        <field name="code">804</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_805" model="res.country.municipality">
+        <field name="name">Momostenango</field>
+        <field name="code">805</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_806" model="res.country.municipality">
+        <field name="name">Santa María Chiquimula</field>
+        <field name="code">806</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_807" model="res.country.municipality">
+        <field name="name">Santa Lucía La Reforma</field>
+        <field name="code">807</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+    <record id="municipality_gt_808" model="res.country.municipality">
+        <field name="name">San Bartolo Aguas Calientes</field>
+        <field name="code">808</field>
+        <field name="state_id" ref="base.state_gt_tot"/>
+    </record>
+
+
+    <!-- QUETZALTENANGO DEPARTAMENT  -->
+
+    <record id="municipality_gt_901" model="res.country.municipality">
+        <field name="name">Quetzaltenango</field>
+        <field name="code">901</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_902" model="res.country.municipality">
+        <field name="name">Salcajá</field>
+        <field name="code">902</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_903" model="res.country.municipality">
+        <field name="name">Olintepeque</field>
+        <field name="code">903</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_904" model="res.country.municipality">
+        <field name="name">San Carlos Sija</field>
+        <field name="code">904</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_905" model="res.country.municipality">
+        <field name="name">Sibilia</field>
+        <field name="code">905</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_906" model="res.country.municipality">
+        <field name="name">Cabricán</field>
+        <field name="code">906</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_907" model="res.country.municipality">
+        <field name="name">Cajolá</field>
+        <field name="code">907</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_908" model="res.country.municipality">
+        <field name="name">San Miguel Sigui</field>
+        <field name="code">908</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_909" model="res.country.municipality">
+        <field name="name">San Juan Ostuncalco</field>
+        <field name="code">909</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_910" model="res.country.municipality">
+        <field name="name">San Mateo</field>
+        <field name="code">910</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_911" model="res.country.municipality">
+        <field name="name">Concepción Chiquirichapa</field>
+        <field name="code">911</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_912" model="res.country.municipality">
+        <field name="name">San Martín Sacatepéquez</field>
+        <field name="code">912</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_913" model="res.country.municipality">
+        <field name="name">Almolonga</field>
+        <field name="code">913</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_914" model="res.country.municipality">
+        <field name="name">Cantel</field>
+        <field name="code">914</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_915" model="res.country.municipality">
+        <field name="name">Huitán</field>
+        <field name="code">915</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_916" model="res.country.municipality">
+        <field name="name">Zunil</field>
+        <field name="code">916</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_917" model="res.country.municipality">
+        <field name="name">Colomba</field>
+        <field name="code">917</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_918" model="res.country.municipality">
+        <field name="name">San Francisco La Unión</field>
+        <field name="code">918</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_919" model="res.country.municipality">
+        <field name="name">El Palmar</field>
+        <field name="code">919</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_920" model="res.country.municipality">
+        <field name="name">Coatepeque</field>
+        <field name="code">920</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_921" model="res.country.municipality">
+        <field name="name">Génova</field>
+        <field name="code">921</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_922" model="res.country.municipality">
+        <field name="name">Flores Costa Cuca</field>
+        <field name="code">922</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_923" model="res.country.municipality">
+        <field name="name">La Esperanza</field>
+        <field name="code">923</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+    <record id="municipality_gt_924" model="res.country.municipality">
+        <field name="name">Palestina de los Altos</field>
+        <field name="code">924</field>
+        <field name="state_id" ref="base.state_gt_que"/>
+    </record>
+
+
+
+    <!-- SUCHITEPEQUEZ DEPARTAMENT  -->
+
+    <record id="municipality_gt_1001" model="res.country.municipality">
+        <field name="name">Mazatenango</field>
+        <field name="code">1001</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1002" model="res.country.municipality">
+        <field name="name">Cuyotenango</field>
+        <field name="code">1002</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1003" model="res.country.municipality">
+        <field name="name">San Francisco Zapotitlán</field>
+        <field name="code">1003</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1004" model="res.country.municipality">
+        <field name="name">San Bernardino</field>
+        <field name="code">1004</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1005" model="res.country.municipality">
+        <field name="name">San José El ídolo</field>
+        <field name="code">1005</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1006" model="res.country.municipality">
+        <field name="name">Santo Domingo Suchitepéquez</field>
+        <field name="code">1006</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1007" model="res.country.municipality">
+        <field name="name">San Lorenzo</field>
+        <field name="code">1007</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1008" model="res.country.municipality">
+        <field name="name">Samayac</field>
+        <field name="code">1008</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1009" model="res.country.municipality">
+        <field name="name">San Pablo Jocopilas</field>
+        <field name="code">1009</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1010" model="res.country.municipality">
+        <field name="name">San Antonio Suchitepéquez</field>
+        <field name="code">1010</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1011" model="res.country.municipality">
+        <field name="name">San Miguel Panán</field>
+        <field name="code">1011</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1012" model="res.country.municipality">
+        <field name="name">San Gabriel</field>
+        <field name="code">1012</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1013" model="res.country.municipality">
+        <field name="name">Chicacao</field>
+        <field name="code">1013</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1014" model="res.country.municipality">
+        <field name="name">Patulul</field>
+        <field name="code">1014</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1015" model="res.country.municipality">
+        <field name="name">Santa Bárbara</field>
+        <field name="code">1015</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1016" model="res.country.municipality">
+        <field name="name">San Juan Bautista</field>
+        <field name="code">1016</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1017" model="res.country.municipality">
+        <field name="name">Santo Tomás La Unión</field>
+        <field name="code">1017</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1018" model="res.country.municipality">
+        <field name="name">Zunilito</field>
+        <field name="code">1018</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1019" model="res.country.municipality">
+        <field name="name">Pueblo Nuevo</field>
+        <field name="code">1019</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+    <record id="municipality_gt_1020" model="res.country.municipality">
+        <field name="name">Río Bravo</field>
+        <field name="code">1020</field>
+        <field name="state_id" ref="base.state_gt_suc"/>
+    </record>
+
+
+
+    <!-- RETALHULEU DEPARTAMENT  -->
+
+    <record id="municipality_gt_1101" model="res.country.municipality">
+        <field name="name">Retalhuleu</field>
+        <field name="code">1101</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1102" model="res.country.municipality">
+        <field name="name">San Sebastián</field>
+        <field name="code">1102</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1103" model="res.country.municipality">
+        <field name="name">Santa Cruz Muluá</field>
+        <field name="code">1103</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1104" model="res.country.municipality">
+        <field name="name">San Martín Zapotitlán</field>
+        <field name="code">1104</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1105" model="res.country.municipality">
+        <field name="name">San Felipe Retalhuleu</field>
+        <field name="code">1105</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1106" model="res.country.municipality">
+        <field name="name">San Andrés Villa Seca</field>
+        <field name="code">1106</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1107" model="res.country.municipality">
+        <field name="name">Champerico</field>
+        <field name="code">1107</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1108" model="res.country.municipality">
+        <field name="name">Nuevo San Carlos</field>
+        <field name="code">1108</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+    <record id="municipality_gt_1109" model="res.country.municipality">
+        <field name="name">El Asintal</field>
+        <field name="code">1109</field>
+        <field name="state_id" ref="base.state_gt_ret"/>
+    </record>
+
+
+
+    <!-- SAN MARCOS DEPARTAMENT  -->
+
+    <record id="municipality_gt_1201" model="res.country.municipality">
+        <field name="name">San Marcos</field>
+        <field name="code">1201</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1202" model="res.country.municipality">
+        <field name="name">San Pedro Sacatepéquez</field>
+        <field name="code">1202</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1203" model="res.country.municipality">
+        <field name="name">San Antonio Sacatepéquez</field>
+        <field name="code">1203</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1204" model="res.country.municipality">
+        <field name="name">Comitancillo</field>
+        <field name="code">1204</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1205" model="res.country.municipality">
+        <field name="name">San Miguel Ixtahuacán</field>
+        <field name="code">1205</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1206" model="res.country.municipality">
+        <field name="name">Concepción Tutuapa</field>
+        <field name="code">1206</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1207" model="res.country.municipality">
+        <field name="name">Tacaná</field>
+        <field name="code">1207</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1208" model="res.country.municipality">
+        <field name="name">Sibinal</field>
+        <field name="code">1208</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1209" model="res.country.municipality">
+        <field name="name">Tajumulco</field>
+        <field name="code">1209</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1210" model="res.country.municipality">
+        <field name="name">Tejutla</field>
+        <field name="code">1210</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1211" model="res.country.municipality">
+        <field name="name">San Rafael Pie de la Cuesta</field>
+        <field name="code">1211</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1212" model="res.country.municipality">
+        <field name="name">Nuevo Progreso</field>
+        <field name="code">1212</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1213" model="res.country.municipality">
+        <field name="name">El Tumbador</field>
+        <field name="code">1213</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1214" model="res.country.municipality">
+        <field name="name">El Rodeo</field>
+        <field name="code">1214</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1215" model="res.country.municipality">
+        <field name="name">Malacatán</field>
+        <field name="code">1215</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1216" model="res.country.municipality">
+        <field name="name">Catarina</field>
+        <field name="code">1216</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1217" model="res.country.municipality">
+        <field name="name">Ayutla</field>
+        <field name="code">1217</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1218" model="res.country.municipality">
+        <field name="name">Ocós</field>
+        <field name="code">1218</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1219" model="res.country.municipality">
+        <field name="name">San Pablo</field>
+        <field name="code">1219</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1220" model="res.country.municipality">
+        <field name="name">El Quetzal</field>
+        <field name="code">1220</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1221" model="res.country.municipality">
+        <field name="name">La Reforma</field>
+        <field name="code">1221</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1222" model="res.country.municipality">
+        <field name="name">Pajapita</field>
+        <field name="code">1222</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1223" model="res.country.municipality">
+        <field name="name">Ixchiguán</field>
+        <field name="code">1223</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1224" model="res.country.municipality">
+        <field name="name">San José Ojetenam</field>
+        <field name="code">1224</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1225" model="res.country.municipality">
+        <field name="name">San Cristóbal Cucho</field>
+        <field name="code">1225</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1226" model="res.country.municipality">
+        <field name="name">Sipacapa</field>
+        <field name="code">1226</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1227" model="res.country.municipality">
+        <field name="name">Esquipulas Palo Gordo</field>
+        <field name="code">1227</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1228" model="res.country.municipality">
+        <field name="name">Río Blanco</field>
+        <field name="code">1228</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+    <record id="municipality_gt_1229" model="res.country.municipality">
+        <field name="name">San Lorenzo</field>
+        <field name="code">1229</field>
+        <field name="state_id" ref="base.state_gt_sma"/>
+    </record>
+
+
+
+    <!-- HUEHUETENANGO DEPARTAMENT  -->
+
+    <record id="municipality_gt_1301" model="res.country.municipality">
+        <field name="name">Huehuetenango</field>
+        <field name="code">1301</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1302" model="res.country.municipality">
+        <field name="name">Chiantla</field>
+        <field name="code">1302</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1303" model="res.country.municipality">
+        <field name="name">Malacatancito</field>
+        <field name="code">1303</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1304" model="res.country.municipality">
+        <field name="name">Cuilco</field>
+        <field name="code">1304</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1305" model="res.country.municipality">
+        <field name="name">Nentón</field>
+        <field name="code">1305</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1306" model="res.country.municipality">
+        <field name="name">San Pedro Necta</field>
+        <field name="code">1306</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1307" model="res.country.municipality">
+        <field name="name">Jacaltenango</field>
+        <field name="code">1307</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1308" model="res.country.municipality">
+        <field name="name">Soloma</field>
+        <field name="code">1308</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1309" model="res.country.municipality">
+        <field name="name">San Idelfonso Ixtahuacán</field>
+        <field name="code">1309</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1310" model="res.country.municipality">
+        <field name="name">Santa Bárbara</field>
+        <field name="code">1310</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1311" model="res.country.municipality">
+        <field name="name">La Libertad</field>
+        <field name="code">1311</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1312" model="res.country.municipality">
+        <field name="name">La Democracia</field>
+        <field name="code">1312</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1313" model="res.country.municipality">
+        <field name="name">San Miguel Acatán</field>
+        <field name="code">1313</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1314" model="res.country.municipality">
+        <field name="name">San Rafael La Indepencia</field>
+        <field name="code">1314</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1315" model="res.country.municipality">
+        <field name="name">Todos Santos Cuchumatán</field>
+        <field name="code">1315</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1316" model="res.country.municipality">
+        <field name="name">San Juan Atitán</field>
+        <field name="code">1316</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1317" model="res.country.municipality">
+        <field name="name">Santa Eulalia</field>
+        <field name="code">1317</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1318" model="res.country.municipality">
+        <field name="name">San Mateo Ixtatán</field>
+        <field name="code">1318</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1319" model="res.country.municipality">
+        <field name="name">Colotenango</field>
+        <field name="code">1319</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1320" model="res.country.municipality">
+        <field name="name">San Sebastián Huehuetenango</field>
+        <field name="code">1320</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1321" model="res.country.municipality">
+        <field name="name">Tectitán</field>
+        <field name="code">1321</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1322" model="res.country.municipality">
+        <field name="name">Concepción Huista</field>
+        <field name="code">1322</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1323" model="res.country.municipality">
+        <field name="name">San Juan Ixcoy</field>
+        <field name="code">1323</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1324" model="res.country.municipality">
+        <field name="name">San Antonio Huista</field>
+        <field name="code">1324</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1325" model="res.country.municipality">
+        <field name="name">San Sebastián Coatán</field>
+        <field name="code">1325</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1326" model="res.country.municipality">
+        <field name="name">Barillas</field>
+        <field name="code">1326</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1327" model="res.country.municipality">
+        <field name="name">Aguacatán</field>
+        <field name="code">1327</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1328" model="res.country.municipality">
+        <field name="name">San Rafael Pétzal</field>
+        <field name="code">1328</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1329" model="res.country.municipality">
+        <field name="name">San Gaspar Ixchil</field>
+        <field name="code">1329</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1330" model="res.country.municipality">
+        <field name="name">Santiago Chimaltenango</field>
+        <field name="code">1330</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+    <record id="municipality_gt_1331" model="res.country.municipality">
+        <field name="name">Santa Ana Huista</field>
+        <field name="code">1331</field>
+        <field name="state_id" ref="base.state_gt_hue"/>
+    </record>
+
+
+
+    <!-- QUICHE DEPARTAMENT  -->
+
+    <record id="municipality_gt_1401" model="res.country.municipality">
+        <field name="name">Santa Cruz del Quiché</field>
+        <field name="code">1401</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1402" model="res.country.municipality">
+        <field name="name">Chiché</field>
+        <field name="code">1402</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1403" model="res.country.municipality">
+        <field name="name">Chinique</field>
+        <field name="code">1403</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1404" model="res.country.municipality">
+        <field name="name">Zacualpa</field>
+        <field name="code">1404</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1405" model="res.country.municipality">
+        <field name="name">Chajul</field>
+        <field name="code">1405</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1406" model="res.country.municipality">
+        <field name="name">Chichicastenango</field>
+        <field name="code">1406</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1407" model="res.country.municipality">
+        <field name="name">Patzité</field>
+        <field name="code">1407</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1408" model="res.country.municipality">
+        <field name="name">San Antonio Ilotenango</field>
+        <field name="code">1408</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1409" model="res.country.municipality">
+        <field name="name">San Pedro Jocopilas</field>
+        <field name="code">1409</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1410" model="res.country.municipality">
+        <field name="name">Cunén</field>
+        <field name="code">1410</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1411" model="res.country.municipality">
+        <field name="name">San Juan Cotzal</field>
+        <field name="code">1411</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1412" model="res.country.municipality">
+        <field name="name">Joyabaj</field>
+        <field name="code">1412</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1413" model="res.country.municipality">
+        <field name="name">Nebaj</field>
+        <field name="code">1413</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1414" model="res.country.municipality">
+        <field name="name">San Andrés Sajcabajá</field>
+        <field name="code">1414</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1415" model="res.country.municipality">
+        <field name="name">Uspantán</field>
+        <field name="code">1415</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1416" model="res.country.municipality">
+        <field name="name">Sacapulas</field>
+        <field name="code">1416</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1417" model="res.country.municipality">
+        <field name="name">San Bartolomé Jocotenango</field>
+        <field name="code">1417</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1418" model="res.country.municipality">
+        <field name="name">Canillá</field>
+        <field name="code">1418</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1419" model="res.country.municipality">
+        <field name="name">Chicamán</field>
+        <field name="code">1419</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1420" model="res.country.municipality">
+        <field name="name">Playa Grande -Ixcán</field>
+        <field name="code">1420</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+    <record id="municipality_gt_1421" model="res.country.municipality">
+        <field name="name">Pachalum</field>
+        <field name="code">1421</field>
+        <field name="state_id" ref="base.state_gt_qui"/>
+    </record>
+
+
+
+    <!-- BAJA VERAPAZ DEPARTAMENT  -->
+
+    <record id="municipality_gt_1501" model="res.country.municipality">
+        <field name="name">Salamá</field>
+        <field name="code">1501</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1502" model="res.country.municipality">
+        <field name="name">San Miguel Chicaj</field>
+        <field name="code">1502</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1503" model="res.country.municipality">
+        <field name="name">Rabinal</field>
+        <field name="code">1503</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1504" model="res.country.municipality">
+        <field name="name">Cubulco</field>
+        <field name="code">1504</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1505" model="res.country.municipality">
+        <field name="name">Granados</field>
+        <field name="code">1505</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1506" model="res.country.municipality">
+        <field name="name">El Chol</field>
+        <field name="code">1506</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1507" model="res.country.municipality">
+        <field name="name">San Jerónimo</field>
+        <field name="code">1507</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+    <record id="municipality_gt_1508" model="res.country.municipality">
+        <field name="name">Purulhá</field>
+        <field name="code">1508</field>
+        <field name="state_id" ref="base.state_gt_bve"/>
+    </record>
+
+
+
+    <!-- ALTA VERAPAZ DEPARTAMENT  -->
+    
+    <record id="municipality_gt_1601" model="res.country.municipality">
+        <field name="name">Cobán</field>
+        <field name="code">1601</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1602" model="res.country.municipality">
+        <field name="name">Santa Cruz Verapaz</field>
+        <field name="code">1602</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1603" model="res.country.municipality">
+        <field name="name">San Cristóbal Verapaz</field>
+        <field name="code">1603</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1604" model="res.country.municipality">
+        <field name="name">Tactic</field>
+        <field name="code">1604</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1605" model="res.country.municipality">
+        <field name="name">Tamahú</field>
+        <field name="code">1605</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1606" model="res.country.municipality">
+        <field name="name">Tucurú</field>
+        <field name="code">1606</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1607" model="res.country.municipality">
+        <field name="name">Panzós</field>
+        <field name="code">1607</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1608" model="res.country.municipality">
+        <field name="name">Senahú</field>
+        <field name="code">1608</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1609" model="res.country.municipality">
+        <field name="name">San Pedro Carchá</field>
+        <field name="code">1609</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1610" model="res.country.municipality">
+        <field name="name">San Juan Chamelco</field>
+        <field name="code">1610</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1611" model="res.country.municipality">
+        <field name="name">Lanquín</field>
+        <field name="code">1611</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1612" model="res.country.municipality">
+        <field name="name">Cahabón</field>
+        <field name="code">1612</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1613" model="res.country.municipality">
+        <field name="name">Chisec</field>
+        <field name="code">1613</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1614" model="res.country.municipality">
+        <field name="name">Chahal</field>
+        <field name="code">1614</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1615" model="res.country.municipality">
+        <field name="name">Fray Bartolomé de las Casas</field>
+        <field name="code">1615</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+    <record id="municipality_gt_1616" model="res.country.municipality">
+        <field name="name">La Tinta</field>
+        <field name="code">1616</field>
+        <field name="state_id" ref="base.state_gt_ave"/>
+    </record>
+
+
+
+    <!-- PETEN DEPARTAMENT  -->
+
+    <record id="municipality_gt_1701" model="res.country.municipality">
+        <field name="name">Flores</field>
+        <field name="code">1701</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1702" model="res.country.municipality">
+        <field name="name">San José</field>
+        <field name="code">1702</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1703" model="res.country.municipality">
+        <field name="name">San Benito</field>
+        <field name="code">1703</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1704" model="res.country.municipality">
+        <field name="name">San Andrés</field>
+        <field name="code">1704</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1705" model="res.country.municipality">
+        <field name="name">La Libertad</field>
+        <field name="code">1705</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1706" model="res.country.municipality">
+        <field name="name">San Francisco</field>
+        <field name="code">1706</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1707" model="res.country.municipality">
+        <field name="name">Santa Ana</field>
+        <field name="code">1707</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1708" model="res.country.municipality">
+        <field name="name">Dolores</field>
+        <field name="code">1708</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1709" model="res.country.municipality">
+        <field name="name">San Luis</field>
+        <field name="code">1709</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1710" model="res.country.municipality">
+        <field name="name">Sayaxché</field>
+        <field name="code">1710</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1711" model="res.country.municipality">
+        <field name="name">Melchor de Mencos</field>
+        <field name="code">1711</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+    <record id="municipality_gt_1712" model="res.country.municipality">
+        <field name="name">Poptún</field>
+        <field name="code">1712</field>
+        <field name="state_id" ref="base.state_gt_pet"/>
+    </record>
+
+
+
+    <!-- IZABAL DEPARTAMENT  -->
+
+    <record id="municipality_gt_1801" model="res.country.municipality">
+        <field name="name">Puerto Barrios</field>
+        <field name="code">1801</field>
+        <field name="state_id" ref="base.state_gt_iza"/>
+    </record>
+
+    <record id="municipality_gt_1802" model="res.country.municipality">
+        <field name="name">Livingston</field>
+        <field name="code">1802</field>
+        <field name="state_id" ref="base.state_gt_iza"/>
+    </record>
+
+    <record id="municipality_gt_1803" model="res.country.municipality">
+        <field name="name">El Estor</field>
+        <field name="code">1803</field>
+        <field name="state_id" ref="base.state_gt_iza"/>
+    </record>
+
+    <record id="municipality_gt_1804" model="res.country.municipality">
+        <field name="name">Morales</field>
+        <field name="code">1804</field>
+        <field name="state_id" ref="base.state_gt_iza"/>
+    </record>
+
+    <record id="municipality_gt_1805" model="res.country.municipality">
+        <field name="name">Los Amates</field>
+        <field name="code">1805</field>
+        <field name="state_id" ref="base.state_gt_iza"/>
+    </record>
+
+
+
+    <!-- ZACAPA DEPARTAMENT  -->
+
+    <record id="municipality_gt_1901" model="res.country.municipality">
+        <field name="name">Zacapa</field>
+        <field name="code">1901</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1902" model="res.country.municipality">
+        <field name="name">Estanzuela</field>
+        <field name="code">1902</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1903" model="res.country.municipality">
+        <field name="name">Río Hondo</field>
+        <field name="code">1903</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1904" model="res.country.municipality">
+        <field name="name">Gualán</field>
+        <field name="code">1904</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1905" model="res.country.municipality">
+        <field name="name">Teculután</field>
+        <field name="code">1905</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1906" model="res.country.municipality">
+        <field name="name">Usumatlán</field>
+        <field name="code">1906</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1907" model="res.country.municipality">
+        <field name="name">Cabañas</field>
+        <field name="code">1907</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1908" model="res.country.municipality">
+        <field name="name">San Diego</field>
+        <field name="code">1908</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1909" model="res.country.municipality">
+        <field name="name">La Unión</field>
+        <field name="code">1909</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+    <record id="municipality_gt_1910" model="res.country.municipality">
+        <field name="name">Huité</field>
+        <field name="code">1910</field>
+        <field name="state_id" ref="base.state_gt_zac"/>
+    </record>
+
+
+
+    <!-- CHIQUIMULA DEPARTAMENT  -->
+
+    <record id="municipality_gt_2001" model="res.country.municipality">
+        <field name="name">Chiquimula</field>
+        <field name="code">2001</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2002" model="res.country.municipality">
+        <field name="name">San José La Arada</field>
+        <field name="code">2002</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2003" model="res.country.municipality">
+        <field name="name">San Juan Ermita</field>
+        <field name="code">2003</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2004" model="res.country.municipality">
+        <field name="name">Jocotán</field>
+        <field name="code">2004</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2005" model="res.country.municipality">
+        <field name="name">Camotán</field>
+        <field name="code">2005</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2006" model="res.country.municipality">
+        <field name="name">Olopa</field>
+        <field name="code">2006</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2007" model="res.country.municipality">
+        <field name="name">Esquipulas</field>
+        <field name="code">2007</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2008" model="res.country.municipality">
+        <field name="name">Concepción Las Minas</field>
+        <field name="code">2008</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2009" model="res.country.municipality">
+        <field name="name">Quetzaltepeque</field>
+        <field name="code">2009</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2010" model="res.country.municipality">
+        <field name="name">San Jacinto</field>
+        <field name="code">2010</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+    <record id="municipality_gt_2011" model="res.country.municipality">
+        <field name="name">Ipala</field>
+        <field name="code">2011</field>
+        <field name="state_id" ref="base.state_gt_cqm"/>
+    </record>
+
+
+
+    <!-- JALAPA DEPARTAMENT  -->
+
+    <record id="municipality_gt_2101" model="res.country.municipality">
+        <field name="name">Jalapa</field>
+        <field name="code">2101</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+    <record id="municipality_gt_2102" model="res.country.municipality">
+        <field name="name">San Pedro Pinula</field>
+        <field name="code">2102</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+    <record id="municipality_gt_2103" model="res.country.municipality">
+        <field name="name">San Luis Jilotepeque</field>
+        <field name="code">2103</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+    <record id="municipality_gt_2104" model="res.country.municipality">
+        <field name="name">San Manuel Chaparrón</field>
+        <field name="code">2104</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+    <record id="municipality_gt_2105" model="res.country.municipality">
+        <field name="name">San Carlos Alzatate</field>
+        <field name="code">2105</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+    <record id="municipality_gt_2106" model="res.country.municipality">
+        <field name="name">Monjas</field>
+        <field name="code">2106</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+    <record id="municipality_gt_2107" model="res.country.municipality">
+        <field name="name">Mataquescuintla</field>
+        <field name="code">2107</field>
+        <field name="state_id" ref="base.state_gt_jal"/>
+    </record>
+
+
+
+    <!-- JUTIAPA DEPARTAMENT  -->
+
+    <record id="municipality_gt_2201" model="res.country.municipality">
+        <field name="name">Jutiapa</field>
+        <field name="code">2201</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2202" model="res.country.municipality">
+        <field name="name">El Progreso</field>
+        <field name="code">2202</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2203" model="res.country.municipality">
+        <field name="name">Santa Catarina Mita</field>
+        <field name="code">2203</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2204" model="res.country.municipality">
+        <field name="name">Agua Blanca</field>
+        <field name="code">2204</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2205" model="res.country.municipality">
+        <field name="name">Asunción Mita</field>
+        <field name="code">2205</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2206" model="res.country.municipality">
+        <field name="name">Yupiltepeque</field>
+        <field name="code">2206</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2207" model="res.country.municipality">
+        <field name="name">Atescatempa</field>
+        <field name="code">2207</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2208" model="res.country.municipality">
+        <field name="name">Jerez</field>
+        <field name="code">2208</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2209" model="res.country.municipality">
+        <field name="name">El Adelanto</field>
+        <field name="code">2209</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2210" model="res.country.municipality">
+        <field name="name">Zapotitlán</field>
+        <field name="code">2210</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2211" model="res.country.municipality">
+        <field name="name">Comapa</field>
+        <field name="code">2211</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2212" model="res.country.municipality">
+        <field name="name">Jalpatagua</field>
+        <field name="code">2212</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2213" model="res.country.municipality">
+        <field name="name">Conguaco</field>
+        <field name="code">2213</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2214" model="res.country.municipality">
+        <field name="name">Moyuta</field>
+        <field name="code">2214</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2215" model="res.country.municipality">
+        <field name="name">Pasaco</field>
+        <field name="code">2215</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2216" model="res.country.municipality">
+        <field name="name">San José Acatempa</field>
+        <field name="code">2216</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+
+    <record id="municipality_gt_2217" model="res.country.municipality">
+        <field name="name">Quesada</field>
+        <field name="code">2217</field>
+        <field name="state_id" ref="base.state_gt_jut"/>
+    </record>
+    
+</odoo>

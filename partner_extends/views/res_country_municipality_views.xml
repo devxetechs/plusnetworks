@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="res_country_municipality_tree_view" model="ir.ui.view">
+            <field name="name">res.country.municipality.tree.view</field>
+            <field name="model">res.country.municipality</field>
+            <field name="arch" type="xml">
+                <tree editable="bottom">
+                    <field name="region"/>
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="state_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_res_country_municipality">
+            <field name="name">Municipality</field>
+            <field name="res_model">res.country.municipality</field>
+            <field name="view_mode">tree</field>
+        </record>
+
+        <menuitem id="menu_res_country_municipality" name="Municipality" action="action_res_country_municipality" sequence="2" parent="contacts.menu_localisation"/>
+        
+    </data>
+</odoo>

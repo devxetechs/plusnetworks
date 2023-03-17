@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <record id="base_view_partner_logistic_form_inherit" model="ir.ui.view">
+            <field name="name">base.view.partner.logistic.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='state_id']" position="attributes">
+                    <attribute name="placeholder">Department</attribute>
+                </xpath>
+                <xpath expr="//notebook[1]/page[1]" position="attributes">
+                    <attribute name="string">Enlaces</attribute>
+                </xpath>
+                <xpath expr="//field[@name='country_id']" position="before">
+                    <field name="zone" style="width:47%;" placeholder="Zone" nolabel="1"/>
+                    <field name="municipality_id" style="width:50%; margin-left:10px;" placeholder="Municipality" nolabel="1" options="{'no_create_edit': True}" domain="[('state_id', '=', state_id)]"/>
+                </xpath>
+                <xpath expr="//sheet/group[1]" position="after">
+                    <group>
+                        <group>
+                            <field name="link_code"/>
+                            <label for="speed"/>
+                            <div class="o_row" name="speed">
+                                <field name="speed" nolabel="1"/>
+                                <span>/ Mbps</span>
+                            </div>
+                            <field name="ip_assigned"/>
+                        </group>
+                        <group>
+                            <field name="annex_code"/>
+                            <field name="att_expiration_date"/>
+                        </group>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="base_view_partner_logistic_tree_inherit" model="ir.ui.view">
+            <field name="name">base.view.partner.logistic.tree.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='phone']" position="before">
+                    <field name="ref" optional="show"/>
+                    <field name="link_code" optional="show"/>
+                </xpath>
+                <xpath expr="//field[@name='user_id']" position="attributes">
+                    <attribute name="optional">hide</attribute>
+                </xpath>
+                <xpath expr="//field[@name='activity_ids']" position="attributes">
+                    <attribute name="optional">hide</attribute>
+                </xpath>
+                <xpath expr="//field[@name='company_id']" position="attributes">
+                    <attribute name="optional">hide</attribute>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="base_res_partner_view_form_private_inherit" model="ir.ui.view">
+            <field name="name">base.res.partner.view.form.private.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.res_partner_view_form_private"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='state_id']" position="attributes">
+                    <attribute name="placeholder">Department</attribute>
+                </xpath>
+                <xpath expr="//field[@name='country_id']" position="before">
+                    <field name="zone" style="width:45%;" placeholder="Zone" nolabel="1"/>
+                    <field name="municipality_id" style="width:45%; margin-left:10px;" placeholder="Municipality" nolabel="1" options="{'no_create_edit': True}" domain="[('state_id', '=', state_id)]"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
