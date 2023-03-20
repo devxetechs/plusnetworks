@@ -16,6 +16,7 @@
     ],
     'data': [
         'security/ir.model.access.csv',
+        'views/economic_sector_views.xml',
         'views/res_country_region_views.xml',
         'views/res_country_municipality_views.xml',
         'views/res_partner_views.xml',

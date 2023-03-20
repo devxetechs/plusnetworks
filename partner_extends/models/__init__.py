@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from . import economic_sector
 from . import res_country_region
 from . import res_country_municipality
 from . import res_partner
