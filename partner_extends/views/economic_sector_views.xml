@@ -18,7 +18,7 @@
             <field name="view_mode">tree</field>
         </record>
 
-        <menuitem id="menu_economic_sector" name="Region" action="action_economic_sector" sequence="6" parent="contacts.menu_localisation"/>
+        <menuitem id="menu_economic_sector" name="Sector Económico" action="action_economic_sector" sequence="6" parent="contacts.menu_localisation"/>
 
     </data>
 </odoo>

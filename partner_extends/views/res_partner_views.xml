@@ -10,7 +10,9 @@
                 <xpath expr="//sheet" position="before">
                     <header attrs="{'invisible': [('company_type', 'not in', ['person'])]}">
                         <field name="link_state" widget="statusbar" statusbar_visible="deactivated,activated,legal,suspended"/>
-                        <button name="button_activate" string="Activar Enlace" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'not in', ['cancel'])]}"/>
+                        <button name="button_activate" string="Activar Enlace" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'not in', ['cancel', 'deactivated', 'legal', 'suspended'])]}"/>
+                        <button name="button_legal" string="Legal" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'in', ['cancel'])]}"/>
+                        <button name="button_suspended" string="Suspender" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'in', ['cancel'])]}"/>
                         <button name="button_cancel" string="Cancelar Enlace" type="object" attrs="{'invisible': [('link_state', 'in', ['cancel'])]}"/>
                     </header>
                 </xpath>

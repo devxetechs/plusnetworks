@@ -47,5 +47,11 @@ class ResPartner(models.Model):
         self.write({'link_state': 'activated'})
         self.activation_date = datetime.now().today()
     
+    def button_legal(self):
+        self.write({'link_state': 'legal'})
+        
+    def button_suspended(self):
+        self.write({'link_state': 'suspended'})
+    
     def button_cancel(self):
         self.write({'link_state': 'cancel'})
