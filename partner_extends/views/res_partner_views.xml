@@ -7,6 +7,15 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
+                <xpath expr="//sheet" position="before">
+                    <header attrs="{'invisible': [('company_type', 'not in', ['person'])]}">
+                        <field name="link_state" widget="statusbar" statusbar_visible="deactivated,activated,legal,suspended"/>
+                        <button name="button_activate" string="Activar Enlace" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'not in', ['cancel', 'deactivated', 'legal', 'suspended'])]}"/>
+                        <button name="button_legal" string="Legal" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'in', ['cancel'])]}"/>
+                        <button name="button_suspended" string="Suspender" class="oe_highlight" type="object" attrs="{'invisible': [('link_state', 'in', ['cancel'])]}"/>
+                        <button name="button_cancel" string="Cancelar Enlace" type="object" attrs="{'invisible': [('link_state', 'in', ['cancel'])]}"/>
+                    </header>
+                </xpath>
                 <xpath expr="//field[@name='state_id']" position="attributes">
                     <attribute name="placeholder">Department</attribute>
                 </xpath>
@@ -18,6 +27,14 @@
                     <field name="municipality_id" style="width:50%; margin-left:10px;" placeholder="Municipality" nolabel="1" options="{'no_create_edit': True}" domain="[('state_id', '=', state_id)]"/>
                 </xpath>
                 <xpath expr="//sheet/group[1]" position="after">
+                    <group>
+                        <group>
+                            <field name="activation_date"/>
+                        </group>
+                        <group>
+                            <field name="economic_sector"/>
+                        </group>
+                    </group>
                     <group>
                         <group>
                             <field name="link_code"/>
