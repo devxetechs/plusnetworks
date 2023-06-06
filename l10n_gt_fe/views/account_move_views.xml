@@ -19,10 +19,10 @@
                 <attribute name="invisible">0</attribute>
             </div>
 
-            <xpath expr="//group[@id='header_left_group']/label[@for='ref']" position="after">
-                    <field name="fe_type" force_save="1" attrs="{'readonly': [('move_type', 'not in', ['in_invoice', 'in_refund', 'in_receipt'])], 'invisible': [('move_type', 'not in', ['out_invoice', 'out_refund', 'in_invoice', 'in_refund'])]}"/>
-                    <field name="fe_phrase_ids" widget="many2many_tags"/>
-            </xpath>
+            <field name="ref" position="after">
+                <field name="fe_type" force_save="1" attrs="{'readonly': [('move_type', 'not in', ['in_invoice', 'in_refund', 'in_receipt'])], 'invisible': [('move_type', 'not in', ['out_invoice', 'out_refund', 'in_invoice', 'in_refund'])]}"/>
+                <field name="fe_phrase_ids" widget="many2many_tags"/>
+            </field>
             
             <xpath expr="//group[@id='header_right_group']" position="after">
                 <group attrs="{'invisible': [('move_type', 'not in', ['out_invoice', 'out_refund', 'in_invoice', 'in_refund'])]}">
@@ -86,12 +86,8 @@
                         <field name="fe_pdf_file" readonly="1"/>
                         <field name="reversed_entry_id" attrs="{'readonly': False, 'invisible': [('fe_type', '!=', 'NDEB')], 'required': [('fe_type', '=', 'NDEB')], 'readonly': [('process_status', '=', 'ok')]}"/>
                         <field name="ref" string="Motivo" attrs="{'readonly': False, 'invisible': [('fe_type', '!=', 'NDEB')], 'required': [('fe_type', '=', 'NDEB')], 'readonly': [('process_status', '=', 'ok')]}"/>
-                        <group>
-                            <field name="arch_xml" widget="ace" options="{'mode': 'xml'}" groups="l10n_gt_fe.group_fel_manager"/>
-                        </group>
-                        <group>
-                            <field name="sent_arch_xml" widget="ace" options="{'mode': 'xml'}" groups="l10n_gt_fe.group_fel_manager"/>
-                        </group>
+                        <field name="arch_xml"  nolabel="1" widget="ace" options="{'mode': 'xml'}" groups="l10n_gt_fe.group_fel_manager"/>
+                        <field name="sent_arch_xml"  nolabel="1" widget="ace" options="{'mode': 'xml'}" groups="l10n_gt_fe.group_fel_manager"/>
                     </group>
                     <separator string="SAT Response" attrs="{'invisible': [('fe_errors', '=', False)]}"/>
                     <field name="fe_errors" attrs="{'invisible': [('fe_errors', '=', False)]}"/>
@@ -109,8 +105,7 @@
         <field name="model">account.move</field>
         <field name="inherit_id" ref="account.view_invoice_tree"/>
         <field name="arch" type="xml">
-            <field name="made_sequence_hole" position="before">
-<!--            <field name="partner_id" position="before">-->
+            <field name="partner_id" position="before">
                 <field name="partner_vat" optional="hide"/>
                 <field name="fe_uuid" optional="hide"/>
                 <field name="fe_serie" optional="hide"/>

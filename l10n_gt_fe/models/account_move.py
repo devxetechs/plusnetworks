@@ -66,7 +66,7 @@ class AccountMove(models.Model):
 
     @api.model
     def default_get(self, default_fields):
-        # OVERRIDE
+        # OVERRIDEX
         values = super(AccountMove, self).default_get(default_fields)
         values['fe_type'] = 'NCRE' if values.get('move_type', False) == 'out_refund' else 'FACT'
         return values
@@ -109,8 +109,8 @@ class AccountMove(models.Model):
             if not self.invoice_date:
                 self.invoice_date = date.today()
 
-            # if self.invoice_date < ( date.today() - timedelta(days=5) ) and self.process_status:
-            #     raise UserError(_('Error. Date cannot exceed 5 days'))
+            if self.invoice_date < ( date.today() - timedelta(days=5) ) and self.process_status:
+                raise UserError(_('Error. Date cannot exceed 5 days'))
         return super(AccountMove, self).action_post()
 
     @api.onchange('journal_id')
@@ -253,8 +253,7 @@ class AccountMove(models.Model):
 
                     for tax in line.tax_ids:
                         Impuesto = ET.SubElement(Impuestos, 'dte:Impuesto')
-                        # ET.SubElement(Impuesto, 'dte:NombreCorto').text = tax.description
-                        ET.SubElement(Impuesto, 'dte:NombreCorto').text = 'IVA'
+                        ET.SubElement(Impuesto, 'dte:NombreCorto').text = tax.description
                         if not origin_faex:
                             if self.fe_type == 'FAEX':
                                 ET.SubElement(Impuesto, 'dte:CodigoUnidadGravable').text = "2"  
@@ -264,15 +263,8 @@ class AccountMove(models.Model):
                                 ET.SubElement(Impuesto, 'dte:CodigoUnidadGravable').text = "1"  
                         elif origin_faex:
                             ET.SubElement(Impuesto, 'dte:CodigoUnidadGravable').text = "2"
-                        # ET.SubElement(Impuesto, 'dte:MontoGravable').text = str( round(line.price_total - line.price_tax, 2) )
-                        tax_dict = line.compute_all_tax
-                        monto_grabable = abs(next(iter(tax_dict.values()))['tax_base_amount'])
-                        # ET.SubElement(Impuesto, 'dte:MontoGravable').text = str(round(line.price_subtotal, 2))
-                        ET.SubElement(Impuesto, 'dte:MontoGravable').text = str(monto_grabable)
-                        # ET.SubElement(Impuesto, 'dte:MontoImpuesto').text = str( round(line.price_tax, 2) )
-                        monto_impuesto = abs(next(iter(tax_dict.values()))['amount_currency'])
-                        # ET.SubElement(Impuesto, 'dte:MontoImpuesto').text = str(round((line.price_subtotal * tax.amount / 100),2))
-                        ET.SubElement(Impuesto, 'dte:MontoImpuesto').text = str(monto_impuesto)
+                        ET.SubElement(Impuesto, 'dte:MontoGravable').text = str( round(line.price_total - line.price_tax, 2) )
+                        ET.SubElement(Impuesto, 'dte:MontoImpuesto').text = str( round(line.price_tax, 2) )
                         ET.SubElement(Item, 'dte:Total').text = str( round(line.price_total, 2) )
 
             elif self.fe_type == 'FESP':
@@ -305,10 +297,8 @@ class AccountMove(models.Model):
         Totales = ET.SubElement(DatosEmision, 'dte:Totales')
         if self.fe_type != 'NABN':
             TotalImpuestos = ET.SubElement(Totales, 'dte:TotalImpuestos')
-            # dict_taxes = json.loads(self.tax_totals_json)
-            dict_taxes = self.tax_totals
+            dict_taxes = json.loads(self.tax_totals_json)
             groups_by_subtotal = dict_taxes.get("groups_by_subtotal", {})
-            # groups_by_subtotal = {'Importe libre de impuestos': dict_taxes['groups_by_subtotal']['Importe libre de impuestos']}
             for group_tax in groups_by_subtotal.values():
                 for tax in group_tax:
                     if not self.env["account.tax.group"]._apply_withholding(tax['tax_group_id']):
