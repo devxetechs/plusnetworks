@@ -2,7 +2,7 @@
 # Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Auto Sequance on lead Form',
-    'version': '16.0.0.2',
+    'version': '15.0.0.1',
     'category': 'Extra Tools',
     'license': 'OPL-1',
     'summary': 'This apps helps create/generate automatic sequence of lead',
@@ -17,7 +17,7 @@
     'installable': True,
     'auto_install': False,
     "live_test_url":'https://youtu.be/e3ZtVCOuI3E',
-    "images":['static/description/Banner.gif'],
+    "images":['static/description/Banner.png'],
 }
 
 

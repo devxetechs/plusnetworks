@@ -22,7 +22,7 @@
 
 {
     'name': "Customer Sequence",
-    'version': '16.0.1.0.0',
+    'version': '15.0.1.0.0',
     'summary': """Unique Customer Code""",
     'description': """
        Each customer have unique number code, Odoo 13, Odoo
