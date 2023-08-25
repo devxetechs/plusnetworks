@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*- 
-
 {
     'name': 'Electronic Invoice GT',
     'version': '1.1.5',
