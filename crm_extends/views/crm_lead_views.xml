@@ -18,6 +18,9 @@
                     <field name="arc"/>
                 </group>
             </xpath>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="archive_record" attrs="{'invisible': [('probability', '&lt;', 100)]}"/>
+            </xpath>
         </field>
     </record>
 

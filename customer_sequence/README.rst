@@ -16,7 +16,6 @@ Credits
 -------
 * Developers: 	Cybrosys Techno Solutions odoo@cybrosys.com
                 V15 Midilaj V K @cybrosys, odoo@cybrosys.com
-                V16 Neenu Merlin Jose @cybrosys, odoo@cybrosys.com
 
 Contacts
 --------

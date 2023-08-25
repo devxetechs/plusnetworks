@@ -11,6 +11,8 @@ class CRMLead(models.Model):
     arc = fields.Float(string="ARC", store=True, compute="_compute_arc")
     partner_ref = fields.Char(string="Reference", store=True)
     months_numbers = fields.Float(string="Months Number")
+
+    archive_record = fields.Boolean(string="Ocultar Oportunidad Ganada")
     
     @api.depends('months_numbers', 'expected_revenue')
     def _compute_arc(self):
