@@ -12,6 +12,7 @@ class CRMLead(models.Model):
     partner_ref = fields.Char(string="Reference", store=True)
     months_numbers = fields.Float(string="Months Number")
 
+    partner_vat = fields.Char(string="NIT", related="partner_id.vat")
     archive_record = fields.Boolean(string="Ocultar Oportunidad Ganada")
     
     @api.depends('months_numbers', 'expected_revenue')
