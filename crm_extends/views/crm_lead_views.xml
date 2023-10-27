@@ -7,11 +7,11 @@
         <field name="inherit_id" ref="crm.crm_lead_view_form"/>
         <field name="arch" type="xml">
             <xpath expr="//group[@name='lead_partner']/field[@name='partner_id']" position="after">
-                <field name="partner_vat" force_save="1" attrs="{'invisible': [('partner_id', !=, False)]}"/>
+                <field name="partner_vat" force_save="1" attrs="{'invisible': [('partner_id', 'in', False)]}"/>
                 <field name="partner_ref" force_save="1"/>
             </xpath>
             <xpath expr="//group[@name='opportunity_partner']/field[@name='partner_id']" position="after">
-                <field name="partner_vat" force_save="1" attrs="{'invisible': [('partner_id', !=, False)]}"/>
+                <field name="partner_vat" force_save="1" attrs="{'invisible': [('partner_id', 'in', False)]}"/>
                 <field name="partner_ref" force_save="1"/>
             </xpath>
             <xpath expr="//page[@name='lead']/group[1]/group[3]" position="after">

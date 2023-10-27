@@ -18,7 +18,7 @@ class HelpdeskTicket(models.Model):
     speed = fields.Char(string="Speed", store=True)
     link_code = fields.Char(string="Link Code", store=True)
     partner_ref = fields.Char(string="Reference", store=True)
-    annex_code = fields.Char(string="Annex code", store=True)
+    annex_code = fields.Char(string="Código anexo", store=True)
     
     stage_name = fields.Char(string="Stage Name", store=True, related="stage_id.name")
     
