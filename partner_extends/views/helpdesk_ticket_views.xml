@@ -14,6 +14,7 @@
                 <xpath expr="//sheet/group[1]/group[2]" position="inside">
                     <field name="speed" force_save="1"/>
                     <field name="link_code" force_save="1"/>
+                    <field name="annex_code" force_save="1"/>
                 </xpath>
                 <xpath expr="//notebook/page[@name='timesheets']" position="after">
                     <page string="Date and Time Tracking" name="date_tracking">
@@ -37,6 +38,19 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='user_id']" position="after">
                     <field name="link_code" optional="show"/>
+                    <field name="annex_code" optional="show"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="helpdesk_ticket_view_search_inherit" model="ir.ui.view">
+            <field name="name">helpdesk.ticket.view.search.inherit</field>
+            <field name="model">helpdesk.ticket</field>
+            <field name="inherit_id" ref="helpdesk.helpdesk_tickets_view_search"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="link_code"/>
+                    <field name="annex_code"/>
                 </xpath>
             </field>
         </record>

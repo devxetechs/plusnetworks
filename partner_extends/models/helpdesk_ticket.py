@@ -18,6 +18,7 @@ class HelpdeskTicket(models.Model):
     speed = fields.Char(string="Speed", store=True)
     link_code = fields.Char(string="Link Code", store=True)
     partner_ref = fields.Char(string="Reference", store=True)
+    annex_code = fields.Char(string="Código anexo", store=True)
     
     stage_name = fields.Char(string="Stage Name", store=True, related="stage_id.name")
     
@@ -25,6 +26,7 @@ class HelpdeskTicket(models.Model):
     def _onchange_partner_id(self):
         for order in self:
             if order.partner_id:
+                order.annex_code = order.partner_id.annex_code
                 order.partner_ref = order.partner_id.ref
                 order.link_code = order.partner_id.link_code
                 order.speed = order.partner_id.speed
