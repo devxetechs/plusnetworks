@@ -12,6 +12,7 @@
         'contacts',
         'helpdesk',
         'helpdesk_timesheet',
+        'base_geolocalize',
         'hr'
     ],
     'data': [

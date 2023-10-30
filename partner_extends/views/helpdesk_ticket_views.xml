@@ -9,12 +9,12 @@
             <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="annex_code" force_save="1"/>
                     <field name="partner_ref" force_save="1"/>
                 </xpath>
                 <xpath expr="//sheet/group[1]/group[2]" position="inside">
                     <field name="speed" force_save="1"/>
                     <field name="link_code" force_save="1"/>
-                    <field name="annex_code" force_save="1"/>
                 </xpath>
                 <xpath expr="//notebook/page[@name='timesheets']" position="after">
                     <page string="Date and Time Tracking" name="date_tracking">
