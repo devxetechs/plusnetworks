@@ -26,6 +26,9 @@
                     <field name="zone" style="width:47%;" placeholder="Zone" nolabel="1"/>
                     <field name="municipality_id" style="width:50%; margin-left:10px;" placeholder="Municipality" nolabel="1" options="{'no_create_edit': True}" domain="[('state_id', '=', state_id)]"/>
                 </xpath>
+                <xpath expr="//button[@name='geo_localize']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
                 <xpath expr="//sheet/group[1]" position="after">
                     <group>
                         <group>
